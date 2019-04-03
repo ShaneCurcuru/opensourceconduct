@@ -1,0 +1,10 @@
+title,url,related,description
+Github's Open Source CoC Guide,https://opensource.guide/code-of-conduct/,,A high-level overview about the process for projects looking to adopt and enforce a CoC.
+Contributor Covenant,https://www.contributor-covenant.org/,https://www.contributor-covenant.org/faq,This is a solidly developed and popular CoC that includes guides and tools for adding it to your project. It's now used as the [Linux Kernel's CoC](https://www.kernel.org/doc/html/latest/process/code-of-conduct.html) among many other projects.
+Geek Feminism List of Resources,http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations,http://geekfeminism.wikia.com/wiki/Conference_anti-harassment,"The Geek Feminism community has a lot of information about making diverse communities feel comfortable, as well as a wide array of articles about CoCs, both for communities and events."
+Ashe Dryden FAQ on CoCs,https://www.ashedryden.com/blog/codes-of-conduct-101-faq,,"Ashe is a diversity and inclusion consultant, and has a detailed FAQ and lists of other useful resources."
+Code of Conduct in Open Source Projects (Paper),https://www.win.tue.nl/~aserebre/SANER2017.pdf,,"This 2017 scholarly article researched the CoCs used by a variety of open source projects, along with analyzing which core CoCs were used where."
+CoC Research Spreadsheet,https://docs.google.com/spreadsheets/d/10reZ100_a54jjxx2IfzxPq1BKVfMWAhm_SEV_Ss59tM/edit#gid=0,,Research project reviewing project CoCs and issues reported.
+CoC Conductor tool,https://github.com/benbalter/coconductor,,GitHub tool that auto-detects common kinds of CoCs in project repos.
+Ada Initiative,https://adainitiative.org/,,A (now closed) non-profit that accelerated many of the discussions around CoCs in open source and other online spaces.
+Have Additions To This List?,https://github.com/ShaneCurcuru/opensourceconduct,,This website is an open source project - so submit your pull requests for consideration!

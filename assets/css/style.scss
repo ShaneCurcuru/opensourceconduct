@@ -1,0 +1,64 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Cheap navbar based on download class -curcuru */
+ul.navbar {
+  list-style:none;
+  height:40px;
+  padding:0;
+  background: #f4f4f4;
+  border-radius:5px;
+  border:3px solid #eeeeee;
+  margin-top: 50px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar li {
+  float:left;
+  border-right:1px solid #e0e0e0;
+  height:40px;
+  list-style: none;
+  flex-grow: 1;
+}
+
+.navbar li:first-child a {
+  border-radius:5px 0 0 5px;
+}
+
+.navbar li:last-child a {
+  border-radius:0 5px 5px 0;
+}
+
+.navbar a {
+  line-height:1;
+  font-size:11px;
+  color:#676767;
+  display:block;
+  text-align:center;
+  padding-top:6px;
+  height:34px;
+}
+
+.navbar a:hover, .navbar a:focus {
+  color:#675C5C;
+  font-weight:bold;
+}
+
+.navbar ul a:active {
+  background-color:#f0f0f0;
+}
+
+.navbar a strong {
+  font-size:14px;
+  display:block;
+  color:#222;
+}
+
+/* Need a little more space -curcuru */
+dt {
+  margin:20px 0 0 0;
+}

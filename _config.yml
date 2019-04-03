@@ -1,0 +1,24 @@
+theme: jekyll-theme-minimal
+title: Open Source Project Codes of Conduct
+logo: /assets/img/lifesaver.png
+description: Your simple introduction to Codes of Conduct in FOSS Projects
+show_downloads: false
+google_analytics: UA-104072125-4
+
+author: Shane Curcuru
+twitter:
+  username: shanecurcuru
+  card: summary
+social:
+  name: Punderthings℠ LLC
+  links:
+    - http://punderthings.com/
+    - http://shanecurcuru.org/
+
+navbar:
+  - title: "Project CoC List"
+    url: "/projects"
+  - title: "Reuseable CoCs"
+    url: "/corecoc"
+  - title: "More Resources"
+    url: "/resources"
