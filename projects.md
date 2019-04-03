@@ -1,5 +1,5 @@
 ---
-layout: datalist
+layout: projlist
 title: Listing of Project CoCs
 datafile: projects
 ---

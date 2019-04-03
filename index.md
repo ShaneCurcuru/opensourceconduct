@@ -10,15 +10,15 @@ Having a written code of conduct, prominently displayed where participants will 
 
 ## FOSS Projects CoC Listing
 
-Curious if which projects have a strong CoC, or where the CoC for a specific project or foundation was derived from?    Read our [**curated list of major FOSS project CoCs**](/projects) (coming soon).  Most projects copy or modify a one of a small set of [**widely used core CoCs**](/corecoc), and you can see which core codes get used in what projects.
+Curious if which projects have a strong CoC, or where the CoC for a specific project or foundation was derived from?   Read our [**curated list of major FOSS project CoCs**](/projects).  Most projects copy or modify a one of a small set of [**widely used core CoCs**](/corecoc), and you can see which core codes get used in what projects.
 
 ## Conference CoCs
 
-The activities and interactions in online communities work differently than in person events.  Most open source _conferences_ have their own Code of Conduct or Anti-Harassment policy that deals with conference issues, especially the details of how to report problems and safety issues inherent in face to face situations.  Some of these 
-are included in the list of FOSS project CoCs where known.
+The activities and interactions in online communities work differently than in person events.  Most open source _conferences_ have their own Code of Conduct or Anti-Harassment policy that deals with conference issues, especially the details of how to report problems and safety issues inherent in face to face situations.  Some of these are included in the list of FOSS project CoCs where known.
 
 ## More on Diversity in Open Source
 
 Interested in working on diversity and inclusion efforts in your 
-open source projects?  Head over to [Open Source Diversity](https://opensourcediversity.org/) for a set of 
+open source projects?  Here's a [simple list of CoC resources](/resources), and then 
+head over to [Open Source Diversity](https://opensourcediversity.org/) for a set of 
 jumping-off points to more resources, helpful communities, and programs.
