@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+<hr/>
+
+{{content}}
+
+<hr/>
+<dl>
+  {% for itm in site.data[page.datafile] %}
+    <dt>
+      <a href="{{ itm.url }}">{{ itm.name }}</a>
+    </dt>
+    <dd>
+      <ul>
+        <li><a href="{{ itm.cocurl }}">Code of Conduct</a></li>
+        {% if itm.cocevents %}<li><a href="{{ itm.cocevents }}">Events CoC</a></li>{% endif %}
+        {% if itm.cocsource %}<li>CoC noted as derived from: {{ itm.cocsource }}</li>{% endif %}
+        {% if itm.coclinked %}<li>Homepage links to CoC in:  {{ itm.coclinked }}</li>{% endif %}
+      </ul>
+    </dd>
+  {% endfor %}
+</dl>
+
+{% include footer.html %}
+

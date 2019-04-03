@@ -8,7 +8,6 @@ layout: default
 {{content}}
 
 <hr/>
-
 <dl>
   {% for itm in site.data[page.datafile] %}
     <dt>
@@ -19,13 +18,4 @@ layout: default
   {% endfor %}
 </dl>
 
-<ul class="navbar">
-  {% for itm in site.navbar %}
-    <li><a href="{{ itm.url }}">{{ itm.title }}</a></li>
-  {% endfor %}
-</ul>
-
-<p>
-  <small><a href="{{ site.github.repository_url }}/edit/{{ site.branch }}/{{ page.path }}" title="Open GitHub Issue on {{ page.path }}">Suggest additions on GitHub</a></small>
-</p>
-
+{% include footer.html %}
