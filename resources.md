@@ -1,7 +1,7 @@
 ---
 layout: datalist
 title: CoC Resource List
-datalist: resources
+datafile: resources
 ---
 
 Here is a very small selection of Code of Conduct resources that I've 
