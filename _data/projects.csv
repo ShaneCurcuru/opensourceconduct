@@ -1,0 +1,26 @@
+key,name,wikidata,url,cocurl,cocevents,cocsource,coclinked
+apache,Apache Software Foundation,Q489709,https://www.apache.org/,https://www.apache.org/foundation/policies/conduct.html,https://www.apache.org/foundation/policies/anti-harassment.html,Apache CouchDB CoC,navbar
+coderdojo,CoderDojo,Q21015658,https://coderdojo.com/foundation/,https://kata.coderdojo.com/wiki/CoderDojo_Charter_of_Ethics,,,
+debian,Debian Project,Q55966784,https://www.debian.org/,https://www.debian.org/code_of_conduct,,,text
+django-events-foundation,Django,Q5285237,https://www.djangoproject.com/,https://www.djangoproject.com/conduct/,,Speak Up! Project,footer
+document-foundation,The Document Foundation,Q313103,https://www.documentfoundation.org/,https://www.documentfoundation.org/foundation/code-of-conduct/,,,navbar
+drupal-con,Drupal,Q5309378,https://www.drupal.org/,https://www.drupal.org/dcoc,,Ubuntu,
+eclipse-foundation,Eclipse,Q937756,https://eclipse.org/,https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php,,Contributor Covenant,
+fedora,Fedora,Q48267,https://fedoraproject.org/,https://docs.fedoraproject.org/en-US/project/code-of-conduct/index.html,,,footer
+freebsd-foundation,FreeBSD,Q5499634,https://www.freebsd.org/,https://www.freebsd.org/internal/code-of-conduct.html,,Geek Feminism,
+fsf,Free Software Foundation,Q48413,https://www.fsf.org/,https://www.gnu.org/philosophy/kind-communication.html,,GNU Kind Communications Guidelines,
+fsfe,Free Software Foundation Europe,Q899299,https://fsfe.org/,https://fsfe.org/about/codeofconduct.en.html,,,
+gnome-foundation,GNOME,Q1056660,https://www.gnome.org/,https://wiki.gnome.org/action/show/Foundation/CodeOfConduct,,,
+jenkins,Jenkins,Q7491312,https://jenkins-ci.org/,https://jenkins.io/project/conduct/,,Covenant,
+joomla,Joomla!,Q56759875,https://www.joomla.org/,https://www.joomla.org/about-joomla/the-project/code-of-conduct.html,,Ubuntu,
+kde,KDE,Q1431,https://kde.org/,https://kde.org/code-of-conduct/,,Ubuntu,footer
+linux-foundation,Linux Foundation,Q858851,https://www.linuxfoundation.org/,https://www.linuxfoundation.org/code-of-conduct/,https://events.linuxfoundation.org/code-of-conduct/,,
+linux-kernel-organization,Linux Kernel,Q14579,https://www.kernel.org/,https://www.kernel.org/doc/html/latest/process/code-of-conduct.html,,,
+mozilla-foundation,Mozilla,Q55672,https://www.mozilla.org/,https://www.mozilla.org/en-US/about/governance/policies/participation/,,Ubuntu and Citizens,footer
+node-js,Node.js,Q38620786,https://nodejs.org/en/foundation/,https://github.com/nodejs/admin/blob/master/CODE_OF_CONDUCT.md,,Covenant,
+npm,NPM,Q7067518,https://www.npmjs.com/,https://www.npmjs.com/policies/conduct,,Citizens,footer
+openstack-foundation,OpenStack Foundation,Q45897217,https://www.openstack.org/,https://www.openstack.org/legal/community-code-of-conduct/,,PyCon and Django,
+osi,Open Source Initiative,Q845918,https://opensource.org/,https://opensource.org/codeofconduct,,,
+python-software-foundation,Python,Q83818,https://www.python.org/,https://www.python.org/psf/codeofconduct/,https://github.com/python/pycon-code-of-conduct/blob/master/code_of_conduct.md,,footer
+ubuntu,ubuntu,Q381,https://www.ubuntu.com/,https://www.ubuntu.com/community/code-of-conduct,,,navbar
+wikimedia-foundation,Wikipedia,Q180,https://wikimediafoundation.org/,https://foundation.wikimedia.org/wiki/Code_of_conduct_policy,,,
