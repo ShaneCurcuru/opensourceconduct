@@ -10,7 +10,7 @@ Having a written code of conduct, prominently displayed where participants will 
 
 ## FOSS Projects CoC Listing
 
-Curious if which projects have a strong CoC, or where the CoC for a specific project or foundation was derived from?   Read our [**curated list of major FOSS project CoCs**](/projects).  Most projects copy or modify a one of a small set of [**widely used core CoCs**](/corecoc), and you can see which core codes get used in what projects.
+Curious if which projects have a strong CoC, or where the CoC for a specific project or foundation was derived from?   Read our [curated list of major FOSS project CoCs](/projects).  Most projects copy or modify a one of a small set of [widely used core CoCs](/corecoc), and you can see which core codes get used in what projects.
 
 ## Conference CoCs
 
