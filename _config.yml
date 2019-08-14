@@ -22,3 +22,12 @@ navbar:
     url: "/corecoc"
   - title: "More Resources"
     url: "/resources"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      sidebar: true
