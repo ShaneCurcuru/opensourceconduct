@@ -2,6 +2,7 @@
 layout: datalist
 title: Widely Reused CoCs
 datafile: corecoc
+sidebar: true
 ---
 
 Several Code of Conducts are widely re-used by other groups.  Some, 

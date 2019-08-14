@@ -2,6 +2,7 @@
 layout: projlist
 title: Listing of Project CoCs
 datafile: projects
+sidebar: true
 ---
 
 Here's a brief listing of some major FOSS and open source foundations, 
