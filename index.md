@@ -1,5 +1,6 @@
 ---
 layout: default
+sidebar: false
 ---
 
 ## Codes Of Conduct (CoC)

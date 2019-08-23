@@ -23,11 +23,18 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% comment %} Modified version of https://github.com/pages-themes/minimal/pull/59/commits/bbef062788490f72bbb3f32c27181475672d17ad {% endcomment %}
+{% comment %}
         {% assign pages = site.pages | sort_natural: "position" %}
-        {% for page in pages %}
+        {% for page in site.pages %}
           {% if page.sidebar %}
-            <p class="view"><a href="{{ page.url | relative_url }}">{{page.title}}</a></p>
+            <p style="margin-bottom: 5px;"><a href="{{ page.url | relative_url }}">{{page.title}}</a></p>
           {% endif %}
+        {% endfor %}
+{% endcomment %}
+        {% for page in site.seealso %}
+          <p style="margin-bottom: 5px;"><a href="{{ page.url | relative_url }}">{{page.title}}</a>
+          {% if page.tag %}- <small>{{ page.tag }}</small>{% endif %}
+          </p>
         {% endfor %}
 
         {% if site.show_downloads %}

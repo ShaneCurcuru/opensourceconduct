@@ -16,12 +16,23 @@ social:
     - http://shanecurcuru.org/
 
 navbar:
-  - title: "Project CoC List"
+  - title: "Project CoCs"
     url: "/projects"
   - title: "Reuseable CoCs"
     url: "/corecoc"
   - title: "More Resources"
     url: "/resources"
+
+seealso:
+  - title: "TL;DR Open Source"
+    url: "http://tldropensource.com/"
+    tag: "Simple explainers of common open source terms"
+  - title: "Choose A Foundation"
+    url: "http://chooseafoundation.com/"
+    tag: "Guide to finding a FOSS Foundation for your project"
+  - title: "Community Over Code"
+    url: "communityovercode.com"
+    tag: "Community-driven open source stories from Apache"
 
 defaults:
   -
