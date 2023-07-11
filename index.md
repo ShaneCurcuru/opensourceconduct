@@ -7,7 +7,7 @@ sidebar: false
 
 Online communities like FOSS projects lack most of the social cues around communication that humans normally have; whether in person, on the phone, or even in traditional letter writing.  On the internet, people from anywhere in the world or any culture can join your project.  How do you ensure that the different social expectations of online participants in your community don't derail the effective work of your project?
 
-Having a written code of conduct, prominently displayed where participants will see it, is a key way to ensure that social behavior expectations are shared across participants.  Much like commercial companies work to manage consumer expectations of their brand, your project's leadership can make the work more efficient by clearly adopting, enforcing, and showing a consistent style of social conduct in your online space. 
+Having a written code of conduct, prominently displayed where participants will see it, is a key way to ensure that social behavior expectations are shared across participants.  Much like commercial companies work to manage consumer expectations of their brand, your project's leadership can make the work more efficient by clearly adopting, enforcing, and showing a consistent style of social conduct in your online space.  Open Source Guides also has [tips on adopting and enforcing a CoC](https://opensource.guide/code-of-conduct/).  
 
 ## FOSS Projects CoC Listing
 

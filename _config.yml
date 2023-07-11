@@ -6,6 +6,7 @@ show_downloads: false
 google_analytics: G-E0D53BG453
 email: shane@punderthings.com
 color-scheme: auto
+blank_title: true
 
 plugins:
   - jekyll-sitemap
