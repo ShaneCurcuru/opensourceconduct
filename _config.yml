@@ -8,11 +8,6 @@ email: shane@punderthings.com
 color-scheme: auto
 blank_title: true
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jemoji
-
 author: Shane Curcuru
 twitter:
   username: shanecurcuru
@@ -47,6 +42,3 @@ seealso:
   - title: "Community Over Code"
     url: "communityovercode.com"
     tag: "Community-driven open source stories from Apache"
-
-# See https://github.com/github/pages-gem/issues/399#issuecomment-301827749
-github: [metadata]
