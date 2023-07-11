@@ -7,6 +7,11 @@ google_analytics: G-E0D53BG453
 email: shane@punderthings.com
 color-scheme: auto
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+
 author: Shane Curcuru
 twitter:
   username: shanecurcuru
