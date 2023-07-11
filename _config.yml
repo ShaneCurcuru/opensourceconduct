@@ -1,9 +1,11 @@
-theme: jekyll-theme-minimal
+remote_theme: ShaneCurcuru/minimalist-theme
 title: Open Source Project Codes of Conduct
 logo: /assets/img/lifesaver.png
 description: Your simple introduction to Codes of Conduct in FOSS Projects
 show_downloads: false
-google_analytics: UA-104072125-4
+google_analytics: G-E0D53BG453
+email: shane@punderthings.com
+color-scheme: auto
 
 author: Shane Curcuru
 twitter:
@@ -15,13 +17,19 @@ social:
     - http://punderthings.com/
     - http://shanecurcuru.org/
 
-navbar:
-  - title: "Project CoCs"
-    url: "/projects"
-  - title: "Reuseable CoCs"
-    url: "/corecoc"
-  - title: "More Resources"
-    url: "/resources"
+sidebar:
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/ShaneCurcuru/
+  - name: Project CoCs
+    icon: <i class="fa-solid fa-pen"></i>
+    link: /projects
+  - name: Reuseable CoCs
+    icon: <i class="fa-solid fa-pen"></i>
+    link: /corecoc
+  - name: More Resources
+    icon: <i class="fa-solid fa-pen"></i>
+    link: /resources
 
 seealso:
   - title: "TL;DR Open Source"
@@ -34,11 +42,5 @@ seealso:
     url: "communityovercode.com"
     tag: "Community-driven open source stories from Apache"
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      sidebar: true
+# See https://github.com/github/pages-gem/issues/399#issuecomment-301827749
+github: [metadata]
