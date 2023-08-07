@@ -15,8 +15,8 @@ twitter:
 social:
   name: Punderthings℠ LLC
   links:
-    - http://punderthings.com/
-    - http://shanecurcuru.org/
+    - https://punderthings.com/
+    - https://shanecurcuru.org/
 
 sidebar:
   - name: GitHub
@@ -34,10 +34,10 @@ sidebar:
 
 seealso:
   - title: "TL;DR Open Source"
-    url: "http://tldropensource.com/"
+    url: "https://tldropensource.com/"
     tag: "Simple explainers of common open source terms"
   - title: "Choose A Foundation"
-    url: "http://chooseafoundation.com/"
+    url: "https://chooseafoundation.com/"
     tag: "Guide to finding a FOSS Foundation for your project"
   - title: "Community Over Code"
     url: "communityovercode.com"
