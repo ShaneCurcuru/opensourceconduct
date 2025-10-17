@@ -2,7 +2,7 @@
 identifier: covenant
 name: Contributor Covenant
 description: Contributor Covenant is the most widely adopted open source code of conduct in the world. It helps your community express its unique core values while setting clear expectations for how people should treat one another.
-url: https://www.contributor-covenant.org
+website: https://www.contributor-covenant.org
 wikidataId: Q57892570
 creator: Coraline Ada Ehmke
 maintainer: https://ethicalsource.dev/
