@@ -14,7 +14,7 @@ isBasedOn:
 workTranslation:
 - https://www.contributor-covenant.org/de/version/3/0/code_of_conduct/
 - https://www.contributor-covenant.org/zh-cn/version/3/0/code_of_conduct/
-version: Past versions include: 1.0, 1.1, 1.2, 1.3, 1.4, 2.0, and 2.1.
+version: "Past versions include: 1.0, 1.1, 1.2, 1.3, 1.4, 2.0, and 2.1."
 projectsNotable:
 ---
 
