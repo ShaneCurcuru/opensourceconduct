@@ -54,5 +54,5 @@ defaults:
       path: ""
       type: "cocs"
     values:
-      layout: coc
+      layout: cocpolicy
       
