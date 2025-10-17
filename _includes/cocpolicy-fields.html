@@ -1,20 +1,20 @@
   <section id="general-section">
     <h2 id="general">General</h2>
-    {% if page.identifier %}<abbr title="Common name; lowercased; used for lookups.">Policy lookup identifier</abbr>: <span itemprop="identifier">{{ page.identifier }}</span>{% endif %}<br/>
-    {% if page.name %}<abbr title="Commonly used name of this COC in public.">Common Name</abbr>: <span itemprop="name">{{ page.name }}</span>{% endif %}<br/>
-    {% if page.description %}<abbr title="One sentence brief overview of this policy.">Description</abbr>: <span itemprop="description">{{ page.description }}</span>{% endif %}<br/>
-    {% if page.website %}<abbr title="Primary website homepage.">Website</abbr>: <a itemprop="website" href="{{ page.website }}">{{ page.website }}</a>{% endif %}<br/>
-    {% if page.wikidataId %}<abbr title="Wikidata ID for lookups.">Wikidata ID</abbr>: <span itemprop="wikidataId">{{ page.wikidataId }}</span>{% endif %}<br/>
+    {% if page.identifier %}<abbr title="Common name; lowercased; used for lookups.">Policy lookup identifier</abbr>: <span itemprop="identifier">{{ page.identifier }}</span><br/>{% endif %}
+    {% if page.name %}<abbr title="Commonly used name of this COC in public.">Common Name</abbr>: <span itemprop="name">{{ page.name }}</span><br/>{% endif %}
+    {% if page.description %}<abbr title="One sentence brief overview of this policy.">Description</abbr>: <span itemprop="description">{{ page.description }}</span><br/>{% endif %}
+    {% if page.website %}<abbr title="Primary website homepage.">Website</abbr>: <a itemprop="website" href="{{ page.website }}">{{ page.website }}</a><br/>{% endif %}
+    {% if page.wikidataId %}<abbr title="Wikidata ID for lookups.">Wikidata ID</abbr>: <span itemprop="wikidataId">{{ page.wikidataId }}</span><br/>{% endif %}
   </section>
   <section id="maintainers-section">
     <h2 id="maintainers">Maintainers</h2>
-    {% if page.creator %}<abbr title="Original Creator or Author of COC policy.">Creator</abbr>: <span itemprop="creator">{{ page.creator }}</span>{% endif %}<br/>
-    {% if page.maintainer %}<abbr title="Current Maintainer of the policy document itself.">Maintainer</abbr>: <span itemprop="maintainer">{{ page.maintainer }}</span>{% endif %}<br/>
-    {% if page.parentOrganization %}<abbr title="Organization in charge of and implementing this COC.">Parent Organization</abbr>: <span itemprop="parentOrganization">{{ page.parentOrganization }}</span>{% endif %}<br/>
-    {% if page.creativeWorkStatus %}<abbr title="Effective status of the COC policy itself: draft, published, archived.">Policy Status</abbr>: <span itemprop="creativeWorkStatus">{{ page.creativeWorkStatus }}</span>{% endif %}<br/>
-    {% if page.archivedAt %}<abbr title="URL of archive, if original document no longer available.">Archival Link</abbr>: <a itemprop="archivedAt" href="{{ page.archivedAt }}">{{ page.archivedAt }}</a>{% endif %}<br/>
-    {% if page.license %}<abbr title="License this COC is offered under.">License</abbr>: <span itemprop="license">{{ page.license }}</span>{% endif %}<br/>
-    {% if page.creditText %}<abbr title="Text suitable to credit this COC policy.">Credit Text</abbr>: <span itemprop="creditText">{{ page.creditText }}</span>{% endif %}<br/>
+    {% if page.creator %}<abbr title="Original Creator or Author of COC policy.">Creator</abbr>: <span itemprop="creator">{{ page.creator }}</span><br/>{% endif %}
+    {% if page.maintainer %}<abbr title="Current Maintainer of the policy document itself.">Maintainer</abbr>: <span itemprop="maintainer">{{ page.maintainer }}</span><br/>{% endif %}
+    {% if page.parentOrganization %}<abbr title="Organization in charge of and implementing this COC.">Parent Organization</abbr>: <span itemprop="parentOrganization">{{ page.parentOrganization }}</span><br/>{% endif %}
+    {% if page.creativeWorkStatus %}<abbr title="Effective status of the COC policy itself: draft, published, archived.">Policy Status</abbr>: <span itemprop="creativeWorkStatus">{{ page.creativeWorkStatus }}</span><br/>{% endif %}
+    {% if page.archivedAt %}<abbr title="URL of archive, if original document no longer available.">Archival Link</abbr>: <a itemprop="archivedAt" href="{{ page.archivedAt }}">{{ page.archivedAt }}</a><br/>{% endif %}
+    {% if page.license %}<abbr title="License this COC is offered under.">License</abbr>: <span itemprop="license">{{ page.license }}</span><br/>{% endif %}
+    {% if page.creditText %}<abbr title="Text suitable to credit this COC policy.">Credit Text</abbr>: <span itemprop="creditText">{{ page.creditText }}</span><br/>{% endif %}
   </section>
   <section id="references-section">
     <h2 id="references">References</h2>
@@ -25,16 +25,16 @@
       <li><span itemprop="isBasedOn">{{ loopitem }}</span></li>
       {% endfor %}
     </ul>
-    {% endif %}
-    <br/>    {% if page.workTranslation %}
+    <br/>    {% endif %}
+    {% if page.workTranslation %}
     <abbr title="Link to any acknowledged translations of this COC policy.">Translations</abbr>:
     <ul>
       {% for loopitem in page.workTranslation %}
       <li><span itemprop="workTranslation">{{ loopitem }}</span></li>
       {% endfor %}
     </ul>
-    {% endif %}
-    <br/>    {% if page.version %}<abbr title="Brief description of key version(s) of this COC policy document.">Version</abbr>: <span itemprop="version">{{ page.version }}</span>{% endif %}<br/>
+    <br/>    {% endif %}
+    {% if page.version %}<abbr title="Brief description of key version(s) of this COC policy document.">Version</abbr>: <span itemprop="version">{{ page.version }}</span><br/>{% endif %}
     {% if page.projectsNotable %}
     <abbr title="Example list of notable communities citing this COC version.">Example Communities Using This COC</abbr>:
     <ul>
@@ -42,5 +42,5 @@
       <li><span itemprop="projectsNotable">{{ loopitem }}</span></li>
       {% endfor %}
     </ul>
-    {% endif %}
-    <br/>  </section>
+    <br/>    {% endif %}
+  </section>
