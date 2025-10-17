@@ -3,11 +3,11 @@
   "$id": "https://opensourceconduct.com/cocs/covenant.md",
   "type": "object",
   "title": "Code Of Conduct Policy Schema",
-  "required": ["identifier", "name", "description", "url", "creativeWorkStatus"],
+  "required": ["identifier", "name", "description", "website", "creativeWorkStatus"],
   "properties": {
     "identifier": {
       "section": "General",
-      "title": "Used as filename or fragment reference",
+      "title": "Policy lookup identifier",
       "description": "Common name; lowercased; used for lookups.",
       "type": "string"
     },
@@ -21,7 +21,7 @@
       "description": "One sentence brief overview of this policy.",
       "type": "string"
     },
-    "url": {
+    "website": {
       "title": "Website",
       "description": "Primary website homepage.",
       "type": "string",
@@ -84,7 +84,8 @@
       "description": "Link to any acknowledged translations of this COC policy.",
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "format": "url"
       },
       "uniqueItems": true
     },

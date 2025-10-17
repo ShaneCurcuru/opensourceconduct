@@ -2,7 +2,7 @@
 identifier:
 name:
 description:
-url:
+website:
 wikidataId:
 creator:
 maintainer:
