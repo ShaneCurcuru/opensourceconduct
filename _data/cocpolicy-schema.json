@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "https://opensourceconduct.com/cocs/covenant.md",
+  "type": "object",
+  "title": "Code Of Conduct Policy Schema",
+  "required": ["identifier", "name", "description", "url", "creativeWorkStatus"],
+  "properties": {
+    "identifier": {
+      "section": "General",
+      "title": "Used as filename or fragment reference",
+      "description": "Common name; lowercased; used for lookups.",
+      "type": "string"
+    },
+    "name": {
+      "title": "Common Name",
+      "description": "Commonly used name of this COC in public.",
+      "type": "string"
+    },
+    "description": {
+      "title": "Description",
+      "description": "One sentence brief overview of this policy.",
+      "type": "string"
+    },
+    "url": {
+      "title": "Website",
+      "description": "Primary website homepage.",
+      "type": "string",
+      "format": "url"
+    },
+    "wikidataId": {
+      "title": "Wikidata ID",
+      "description": "Wikidata ID for lookups.",
+      "type": "string"
+    },
+    "creator": {
+      "section": "Maintainers",
+      "title": "Creator",
+      "description": "Original Creator or Author of COC policy.",
+      "type": "string"
+    },
+    "maintainer": {
+      "title": "Maintainer",
+      "description": "Current Maintainer of the policy document itself.",
+      "type": "string"
+    },
+    "parentOrganization": {
+      "title": "Parent Organization",
+      "description": "Organization in charge of and implementing this COC.",
+      "type": "string"
+    },
+    "creativeWorkStatus": {
+      "title": "Policy Status",
+      "description": "Effective status of the COC policy itself: draft, published, archived.",
+      "type": "string"
+    },
+    "archivedAt": {
+      "title": "Archival Link",
+      "description": "URL of archive, if original document no longer available.",
+      "type": "string",
+      "format": "url"
+    },
+    "license": {
+      "title": "License",
+      "description": "License this COC is offered under.",
+      "type": "string"
+    },
+    "creditText": {
+      "title": "Credit Text",
+      "description": "Text suitable to credit this COC policy.",
+      "type": "string"
+    },
+    "isBasedOn": {
+      "section": "References",
+      "title": "Based On",
+      "description": "Name or link to COC policies this document cites as an inspiration.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "workTranslation": {
+      "title": "Translations",
+      "description": "Link to any acknowledged translations of this COC policy.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "version": {
+      "title": "Version",
+      "description": "Brief description of key version(s) of this COC policy document.",
+      "type": "string"
+    },
+    "projectsNotable": {
+      "title": "Example Communities Using This COC",
+      "description": "Example list of notable communities citing this COC version.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    }
+  }
+}

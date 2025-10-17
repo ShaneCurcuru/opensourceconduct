@@ -40,5 +40,19 @@ seealso:
     url: "https://chooseafoundation.com/"
     tag: "Guide to finding a FOSS Foundation for your project"
   - title: "Community Over Code"
-    url: "communityovercode.com"
+    url: "https://communityovercode.com"
     tag: "Community-driven open source stories from Apache"
+
+collections:
+  cocs:
+    output: true
+    sort_by: name
+    permalink: /:collection/:path
+
+defaults:
+  - scope:
+      path: ""
+      type: "cocs"
+    values:
+      layout: coc
+      
