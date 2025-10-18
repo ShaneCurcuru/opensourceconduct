@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<hr id="listing"/>
+<ul>
+  {% for coc in site.cocs %}
+    {% include cocpolicy-listitem.html %}
+  {% endfor %}
+</ul>
