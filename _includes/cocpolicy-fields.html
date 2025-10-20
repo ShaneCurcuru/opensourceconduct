@@ -22,7 +22,12 @@
     <abbr title="Name or link to COC policies this document cites as an inspiration.">Based On</abbr>:
     <ul>
       {% for loopitem in page.isBasedOn %}
-      <li><span itemprop="isBasedOn">{{ loopitem }}</span></li>
+      {% assign linkmap = site.cocs | where: "identifier", loopitem | first %}
+      {% if linkmap %}
+        <li><span itemprop="isBasedOn"><a href="/cocs/{{ linkmap.identifier }}">{{ linkmap.name }}</a></span></li>
+      {% else %} 
+        <li><span itemprop="isBasedOn">{{ loopitem }}</span></li>
+      {% endif %}
       {% endfor %}
     </ul>
     <br/>    {% endif %}

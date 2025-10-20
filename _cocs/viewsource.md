@@ -15,7 +15,7 @@ isBasedOn:
 - citizen
 - django
 - geekfeminism
-- http://lgbtq.technology/coc.html
+- lgbtqintech
 workTranslation:
 version:
 projectsNotable:

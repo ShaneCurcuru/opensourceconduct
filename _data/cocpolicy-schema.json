@@ -75,7 +75,8 @@
       "description": "Name or link to COC policies this document cites as an inspiration.",
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "format": "cocmap"
       },
       "uniqueItems": true
     },

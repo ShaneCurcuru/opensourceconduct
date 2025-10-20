@@ -16,7 +16,7 @@ isBasedOn:
 - https://affectconf.com/coc/
 - covenant
 - django
-- https://lgbtq.technology/coc.html
+- lgbtqintech
 - pycon
 - rust
 workTranslation:
