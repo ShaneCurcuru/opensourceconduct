@@ -55,4 +55,176 @@ defaults:
       type: "cocs"
     values:
       layout: cocpolicy
-      
+
+# Generated data from assets/scripts/build_foundations.py
+foundations:
+  - identifier: almalinux
+    commonName: AlmaLinux
+  - identifier: apereo
+    commonName: Apereo
+  - identifier: asf
+    commonName: Apache Software Foundation
+  - identifier: benetech
+    commonName: Benetech
+  - identifier: biobricks
+    commonName: Biobricks
+  - identifier: blender
+    commonName: Blender Foundation
+  - identifier: bytecode
+    commonName: Bytecode Alliance
+  - identifier: clojuriststogether
+    commonName: Clojurists Together
+  - identifier: commonhaus
+    commonName: Commonhaus
+  - identifier: creativecommons
+    commonName: Creative Commons
+  - identifier: djangoevents
+    commonName: Django Events
+  - identifier: django
+    commonName: Django
+  - identifier: dotnet
+    commonName: .Net Foundation
+  - identifier: drupal
+    commonName: Drupal
+  - identifier: eclipse
+    commonName: Eclipse
+  - identifier: eff
+    commonName: Electronic Frontier Foundation
+  - identifier: erlef
+    commonName: Erlang Ecosystem Foundation
+  - identifier: ffpc
+    commonName: Foundation for Public Code
+  - identifier: freebsd
+    commonName: FreeBSD
+  - identifier: fsf
+    commonName: Free Software Foundation
+  - identifier: fsfe
+    commonName: Free Software Foundation Europe
+  - identifier: fsfse
+    commonName: Free Software Support Network
+  - identifier: fsharp
+    commonName: F# Software Foundation
+  - identifier: gentoo
+    commonName: Gentoo Linux
+  - identifier: gnome
+    commonName: GNOME
+  - identifier: haiku
+    commonName: Haiku
+  - identifier: haskell
+    commonName: Haskell
+  - identifier: idcommons
+    commonName: Identity Commons
+  - identifier: isc
+    commonName: ISC
+  - identifier: joomla
+    commonName: Open Source Matters
+  - identifier: kde
+    commonName: KDE
+  - identifier: kuali
+    commonName: Kuali
+  - identifier: lf
+    commonName: Linux Foundation
+  - identifier: lfcharities
+    commonName: LF Charities
+  - identifier: linuxkernel
+    commonName: Linux Kernel
+  - identifier: llvm
+    commonName: LLVM
+  - identifier: matrix
+    commonName: The Matrix.org Foundation
+  - identifier: mozilla
+    commonName: Mozilla
+  - identifier: netbsd
+    commonName: NetBSD
+  - identifier: numfocus
+    commonName: NumFOCUS
+  - identifier: oasis
+    commonName: OASIS
+  - identifier: ocf
+    commonName: Open Collective Foundation
+  - identifier: oeglobal
+    commonName: OEGlobal
+  - identifier: oisf
+    commonName: Open Information Security Foundation
+  - identifier: olpc
+    commonName: OLPC
+  - identifier: omsf
+    commonName: Open Molecular Software Foundation
+  - identifier: opencompute
+    commonName: Open Compute
+  - identifier: openconnectivity
+    commonName: OCF
+  - identifier: openhomefoundation
+    commonName: Open Home Foundation
+  - identifier: openid
+    commonName: OpenID
+  - identifier: openjsf
+    commonName: OpenJS Foundation
+  - identifier: openrobotics
+    commonName: Open Robotics
+  - identifier: openstack
+    commonName: Open Infra
+  - identifier: openstreetmap
+    commonName: OpenStreetMap
+  - identifier: opentechfund
+    commonName: OpenTechFund
+  - identifier: opentransit
+    commonName: Open Transit
+  - identifier: osc
+    commonName: Open Source Collective
+  - identifier: oset
+    commonName: OSET
+  - identifier: osgeo
+    commonName: OSGeo
+  - identifier: osi
+    commonName: Open Source Initiative
+  - identifier: owasp
+    commonName: OWASP
+  - identifier: pculture
+    commonName: Participatory Culture Foundation
+  - identifier: perl
+    commonName: Perl
+  - identifier: plone
+    commonName: Plone
+  - identifier: postgresql
+    commonName: PostgreSQL.US
+  - identifier: processingfoundation
+    commonName: Processing Foundation
+  - identifier: python
+    commonName: Python
+  - identifier: rails
+    commonName: Rails Foundation
+  - identifier: raspberrypi
+    commonName: Raspberry Pi
+  - identifier: raspberrypina
+    commonName: Raspberry Pi NA
+  - identifier: rubycentral
+    commonName: Ruby Central
+  - identifier: rust
+    commonName: Rust
+  - identifier: sahana
+    commonName: Sahana Foundation
+  - identifier: scale
+    commonName: SCALE
+  - identifier: sfc
+    commonName: Software Freedom Conservancy
+  - identifier: sflc
+    commonName: Software Freedom Law Center
+  - identifier: signal
+    commonName: Signal
+  - identifier: spi
+    commonName: SPI
+  - identifier: tdf
+    commonName: The Document Foundation
+  - identifier: techmatters
+    commonName: Tech Matters
+  - identifier: tug
+    commonName: TeX Users Group
+  - identifier: wikimedia
+    commonName: Wikimedia
+  - identifier: wordpress
+    commonName: WordPress
+  - identifier: xiph
+    commonName: Xiph.org
+  - identifier: xmpp
+    commonName: Jabber XMPP

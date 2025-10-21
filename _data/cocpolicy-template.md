@@ -1,20 +1,20 @@
 ---
-identifier:
-name:
-description:
-website:
-wikidataId:
-creator:
-maintainer:
-parentOrganization:
-creativeWorkStatus:
-archivedAt:
-license:
-creditText:
-isBasedOn:
-workTranslation:
-version:
-projectsNotable:
+identifier: # Policy lookup identifier
+name: # Common Name
+description: # Description
+website: # Website
+wikidataId: # Wikidata ID
+creator: # Creator
+maintainer: # Maintainer
+parentOrganization: # Parent Organization
+creativeWorkStatus: # Policy Status
+archivedAt: # Archival Link
+license: # License
+creditText: # Credit Text
+isBasedOn: # Based On
+workTranslation: # Translations
+version: # Version
+projectsNotable: # Example Communities Using This COC
 ---
 
-FOUNDATION_TEMPLATE To add a listing for a new commonly used Code of Conduct, copy this file and then fill in as much data as you can verify against official sources in the YAML frontmatter fields above.  The data schema is in the _data/cocpolicy-schema.json file.  Then replace this section (i.e. the content of a Jekyll document) with a brief description or other data about this specific COC.  Submit a PR with this new identifier.md file in the _cocs directory.
+BODY_TEMPLATE This template is used for the {{ content }} of each template file (after frontmatter).

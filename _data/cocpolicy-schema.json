@@ -3,7 +3,13 @@
   "$id": "https://opensourceconduct.com/cocs/covenant.md",
   "type": "object",
   "title": "Code Of Conduct Policy Schema",
-  "required": ["identifier", "name", "description", "website", "creativeWorkStatus"],
+  "required": [
+    "identifier",
+    "name",
+    "description",
+    "website",
+    "creativeWorkStatus"
+  ],
   "properties": {
     "identifier": {
       "section": "General",
@@ -30,7 +36,8 @@
     "wikidataId": {
       "title": "Wikidata ID",
       "description": "Wikidata ID for lookups.",
-      "type": "string"
+      "type": "string",
+      "format": "urlfragment~https://www.wikidata.org/wiki/"
     },
     "creator": {
       "section": "Maintainers",
@@ -46,7 +53,8 @@
     "parentOrganization": {
       "title": "Parent Organization",
       "description": "Organization in charge of and implementing this COC.",
-      "type": "string"
+      "type": "string",
+      "format": "jjresolver~foundations~identifier~commonName~https://fossfoundation.info/foundations/"
     },
     "creativeWorkStatus": {
       "title": "Policy Status",
@@ -76,7 +84,7 @@
       "type": "array",
       "items": {
         "type": "string",
-        "format": "cocmap"
+        "format": "jjresolver~cocs~identifier~name~/cocs/"
       },
       "uniqueItems": true
     },
